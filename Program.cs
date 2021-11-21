@@ -768,7 +768,7 @@ namespace Census
             Console.WriteLine("Pritisnite enter za povratak na izbornik...");
             Console.ReadLine();
         }      
-            private static void YoungestPerson(Dictionary<string, Tuple<string, DateTime, string>> myDictionary)
+        private static void YoungestPerson(Dictionary<string, Tuple<string, DateTime, string>> myDictionary)
         {
             Console.Clear();
             List<DateTime> list = new List<DateTime>();
